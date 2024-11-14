@@ -1,3 +1,12 @@
+--[[
+ _   _ _____ _____     _____ __  __ 
+| \ | | ____/ _ \ \   / /_ _|  \/  |
+|  \| |  _|| | | \ \ / / | || |\/| |
+| |\  | |__| |_| |\ V /  | || |  | |
+|_| \_|_____\___/  \_/  |___|_|  |_|
+
+]]--
+
 -- Auto-install packer.nvim if not installed
 local fn = vim.fn
 local install_path = fn.stdpath('data') .. '/site/pack/packer/start/packer.nvim'
@@ -80,7 +89,7 @@ vim.cmd.colorscheme "catppuccin"
 -- Set custom highlight for variables and other syntax elements
 vim.api.nvim_set_hl(0, '@variable', { fg = '#ff8080' })
 vim.api.nvim_set_hl(0, '@punctuation.bracket', { fg = '#FFC34D' })
-vim.api.nvim_set_hl(0, '@function.builtin', { fg = '#62a0ea' })
+vim.api.nvim_set_hl(0, '@function.builtin', { fg = '#8aadf4' })
 vim.api.nvim_set_hl(0, '@operator', { fg = '#FFB65D' })
 vim.api.nvim_set_hl(0, '@function.macro', { fg = '#75baff' })
 vim.api.nvim_set_hl(0, '@punctuation.delimiter', { fg = '#FFB84E' })
