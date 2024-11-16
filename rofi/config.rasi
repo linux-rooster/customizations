@@ -1,8 +1,10 @@
+// make sure to have the catppuccin-macchiato theme installed.
+// because im using KDE, i set the terminal to "konsole."
 configuration{
     modi: "run,drun,window";
     show-icons: true;
-    terminal: "alacritty";
-    icon-theme: "Breeze";
+    terminal: "konsole";
+    icon-theme: "Papirus";
     drun-display-format: "{icon} {name}";
     location: 0;
     disable-history: false;
