@@ -1,10 +1,10 @@
-# an even more minimalistic version of arrow zsh theme. to set it, set ZSH_THEME="arrow"
-
-# UNCOMMENT THE LINES 8, 10, 11, 12, and 13 IF YOU WANT GIT BRANCHES TO SHOW.
+# UNCOMMENT THE LINES IF YOU WANT GIT BRANCHES TO SHOW.
+# To use this theme, set ZSH_THEME="arrow" in .zshrc
 
 if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="yellow"; fi
 
-PROMPT='%{$fg[$NCOLOR]%}%c ➤ %{$reset_color%}'
+PROMPT='%F{#f9e2af}%c %F{#f9e2af}❯ %{$reset_color%}'
+
 #RPROMPT='%{$fg[$NCOLOR]%} $(git_prompt_info)%{$reset_color%}'
 
 #ZSH_THEME_GIT_PROMPT_PREFIX="git:"
