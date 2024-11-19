@@ -1,3 +1,10 @@
+#        _                                 _     _ 
+#   ___ | |__     _ __ ___  _   _   _______| |__ | |
+#  / _ \| '_ \   | '_ ` _ \| | | | |_  / __| '_ \| |
+# | (_) | | | |  | | | | | | |_| |  / /\__ \ | | |_|
+#  \___/|_| |_|  |_| |_| |_|\__, | /___|___/_| |_(_)
+#                           |___/                   
+
 # UNCOMMENT THE LINES IF YOU WANT GIT BRANCHES TO SHOW.
 # To use this theme, set ZSH_THEME="arrow" in .zshrc
 
