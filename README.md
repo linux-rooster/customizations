@@ -13,7 +13,7 @@ Neofetch is no longer being maintained. So i moved to fastfetch. I have a very s
 ![Fastfetch](screenshots/fastfetch.png)
 ## Rofi
 The best application launcher. Similar to fastfetch, my Rofi config is very simple.\
-If you're using Wayland, install the `rofi-wayland` package.
+If you're using Wayland, install the `rofi-wayland` package.\
 ![Rofi](screenshots/rofi.png)
 ## Oh My ZSH!
 I use ZSH as my shell. It's very customizable. So i decided to put a simple arrow theme. Works best with Catppuccin-Macchiato theme for your terminal.
