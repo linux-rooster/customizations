@@ -1,12 +1,12 @@
 --[[
- _   _ _____ _____     _____ __  __ 
-| \ | | ____/ _ \ \   / /_ _|  \/  |
-|  \| |  _|| | | \ \ / / | || |\/| |
-| |\  | |__| |_| |\ V /  | || |  | |
-|_| \_|_____\___/  \_/  |___|_|  |_|
-
-]]--
-
+ _   _ _____ _____     _____ __  __ _ 
+| \ | | ____/ _ \ \   / /_ _|  \/  | |
+|  \| |  _|| | | \ \ / / | || |\/| | |
+| |\  | |__| |_| |\ V /  | || |  | |_|
+|_| \_|_____\___/  \_/  |___|_|  |_(_)
+                                      
+--]]
+-- MAKE SURE TO RUN :PackerSync after getting this init.lua
 -- Auto-install packer.nvim if not installed
 local fn = vim.fn
 local install_path = fn.stdpath('data') .. '/site/pack/packer/start/packer.nvim'
@@ -55,7 +55,7 @@ vim.opt.termguicolors = true
 
 require("catppuccin").setup({
     flavour = "macchiato", -- latte, frappe, macchiato, mocha
-    transparent_background = false, -- disables setting the background color.
+    transparent_background = true, -- i reccommend you use my kitty terminal config if you want this to work well, otherwise disable it.
     show_end_of_buffer = false, -- shows the '~' characters after the end of buffers
     term_colors = false, -- sets terminal colors (e.g. `g:terminal_color_0`)
     dim_inactive = {
@@ -87,12 +87,13 @@ require("catppuccin").setup({
 vim.cmd.colorscheme "catppuccin"
 
 -- Set custom highlight for variables and other syntax elements
-vim.api.nvim_set_hl(0, '@variable', { fg = '#ff8080' })
+vim.api.nvim_set_hl(0, '@variable', { fg = '#ed8796' })
 vim.api.nvim_set_hl(0, '@punctuation.bracket', { fg = '#FFC34D' })
 vim.api.nvim_set_hl(0, '@function.builtin', { fg = '#8aadf4' })
-vim.api.nvim_set_hl(0, '@operator', { fg = '#FFB65D' })
+vim.api.nvim_set_hl(0, '@operator', { fg = '#f5a97f' })
 vim.api.nvim_set_hl(0, '@function.macro', { fg = '#75baff' })
 vim.api.nvim_set_hl(0, '@punctuation.delimiter', { fg = '#FFB84E' })
+vim.api.nvim_set_hl(0, '@comment', { fg = '#6e738d' })
 
 -- Line numbers
 vim.wo.number = true
