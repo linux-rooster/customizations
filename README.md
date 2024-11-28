@@ -24,3 +24,9 @@ One of my favourite terminal emulators. I left Konsole and moved on to kitty. I 
 Make sure to install the Hack Nerd Font and Hack Nerd Font Bold from nerdfonts.com, as thats the font my config uses.
 
 ![kitty](screenshots/kitty.png)
+## CAVA
+Cava (CROSS PLATFORM AUDIO VISUALIZER) is a terminal program that can be used to create audio spectrums. It can also be configured. Here's mine:
+
+![cava](screenshots/cava2.png)
+# THE BIG ONE: HYPRLAND (+ waybar)
+HYprland is a tiling WM. I love customizing it. Heres my config, i think you might like it. PLease be sure to read the wayba and hyprland config thoroughly, because this config was meant for MY system.
