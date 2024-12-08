@@ -10,7 +10,18 @@ Make sure to run `:PackerSync` after getting the init.lua
 ![Neovim](screenshots/neovim.png)
 ## Neofetch
 My favourite terminal "fetch" program.\
-Yeah, it's not maintained anymore, but who cares? It's still great.
+Yeah, it's not maintained anymore, but who cares? It's still great.\
+Keep in mind that these logo colours are for endeavourOS specifically.\
+Neofetch does not provide a small version of the endeavourOS logo.\
+BUt you can use your own.
+Thats why theres a `logo` file in the neovim folder.
+Howeve, to use this logo, don't type `neofetch` in the terminal.\
+Instead, type `neofetch --source ~/.config/neofetch/logo`\
+That directory path assumes that you put the logo file in the neofetch folder.
+You can alias this in your shells `.rc` file.\
+THe colours in the logo are set to colour variables of your ACTUAL os.
+So, if it doesn't show the endeavourOS colours, you must be using a different distro or something else.
+For example, Arch LInux's logo is blue, so the logo provided in the file is blue.
 
 ![neofetch](screenshots/neofetch.png)
 ## Wofi
