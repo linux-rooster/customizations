@@ -4,18 +4,18 @@ You can grab any of them, and adjust them however you like!\
 I will put more things here later.\
 Currently, I have:
 ## Neovim
-A neovim init.lua, configured with the plugin manager "Packer", and the Neovim theme "Catppuccin Macchiato".\
+A neovim init.lua, configured with the plugin manager "Packer", and the Neovim theme "Catppuccin Mocha".\
 Install Packer before getting the init.lua file.\
 Make sure to run `:PackerSync` after getting the init.lua
 ![Neovim](screenshots/neovim.png)
 ## Fastfetch
 Neofetch is no longer being maintained. So i moved to fastfetch. I have a very simple config.
 ![Fastfetch](screenshots/fastfetch.png)
-## Rofi
-The best application launcher. Similar to fastfetch, my Rofi config is very simple.\
-If you're using Wayland, install the `rofi-wayland` package.
+## Wofi
+The best application launcher for Wayland. Similar to fastfetch, my Wofi config is very simple.\
+I like it. It's cleeeeeeeeeean.
 
-![Rofi](screenshots/rofi.png)
+![Rofi](screenshots/wofi.png)
 ## Oh My ZSH!
 I use ZSH as my shell. It's very customizable. So i decided to put a simple arrow theme. Works best with Catppuccin-Macchiato theme for your terminal.
 ![OhMyZSH](screenshots/ohmyzsh.png)
