@@ -12,7 +12,7 @@ Make sure to run `:PackerSync` after getting the init.lua
 My favourite terminal "fetch" program.\
 Yeah, it's not maintained anymore, but who cares? It's still great.
 
-1[neofetch](screenshots/neofetch.png)
+![neofetch](screenshots/neofetch.png)
 ## Wofi
 The best application launcher for Wayland. Similar to fastfetch, my Wofi config is very simple.\
 I like it. It's cleeeeeeeeeean.
