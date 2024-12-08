@@ -1,6 +1,6 @@
 // -*- mode: jsonc -*-
 {
-	"height": 25,
+	"height": 26,
 	"width": 1600,
 	"margin-top": 0,
 	"margin-bottom": 0,
@@ -10,9 +10,10 @@
 	"modules-right": ["tray", "pulseaudio", "clock", "custom/power"],
 
 	"custom/menu": {
+		"height": 26,
 		"format": "{icon}",
 		"format-icons": " ",
-		"on-click": "rofi -show drun",
+		"on-click": "wofi --show drun --conf ~/.config/wofi/wofi-themes --style ~/.config/wofi/wofi-themes/src/mocha/style.css",
 		"escape": true,
 		"tooltip": false
 	},
@@ -67,14 +68,14 @@
 		"scroll-step": 5,
 		"format": "<span color='#fab387'>{icon}</span> {volume}%",
 		"format-icons": {
-		"default": [" ", " ", " "]
+		"default": ["", "", " "]
 		},
 		"on-click": "pavucontrol",
 		"tooltip": false
 	},
 
 	"clock": {
-		"format": "<span color='#fab387'></span> {:%I:%M}",
+		"format": "<span color='#fab387'></span> {:%I:%M %p}",
 		"tooltip-format": "<big><span color='#cdd6f4'>{:%Y %B}</span></big>\n<tt><small>{calendar}</small></tt>",
 		"format-alt": "<span color='#eba0ac'></span> <span color='#cdd6f4'>{:%Y-%m-%d}</span>",
 
@@ -112,4 +113,3 @@
 	"exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
 	}
 }
-
