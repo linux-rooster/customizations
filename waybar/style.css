@@ -28,7 +28,7 @@
 	margin: 5 5 5 10;
 	color: @vl;
 	background-color: @bg2;
-	border: 2px solid #D3B7F8;
+	border: 1.5px solid #D3B7F8;
 	border-radius: 10;
 }
 #custom-menu:hover {
@@ -41,7 +41,7 @@
 	margin: 5;
 	color: @fg;
 	background-color: @bg2;
-	border: 2px solid #D3B7F8;
+	border: 1.5px solid #a6e3a1;
 	border-radius: 10;
 }
 button {
@@ -86,7 +86,7 @@ button:hover {
 	margin: 5 0 5 5;
 	color: @fg;
 	background-color: @bg2;
-	border: 2px solid #D3B7F8;
+	border: 1.5px solid #b4befe;
 	border-right: transparent;
 	border-radius: 10 0 0 10;
 }
@@ -98,7 +98,7 @@ button:hover {
 	padding: 2 15 2 10;
 	margin: 5 5 5 0;
 	color: @fg;
-	border: 2px solid #D3B7F8;
+	border: 1.5px solid #b4befe;
 	border-left: transparent;
 	background-color: @bg2;
 	border-radius: 0 10 10 0;
@@ -113,6 +113,7 @@ button:hover {
 	padding: 2 15;
 	margin: 5;
 	background-color: @bg2;
+	border: 1.5px solid #eba0ac;
 	border-radius: 10;
 }
 
@@ -132,7 +133,7 @@ button:hover {
 	margin: 5;
 	color: @fg;
 	background-color: @bg2;
-	border: 2px solid #D3B7F8;
+	border: 1.5px solid #f5c2e7;
 	border-radius: 10;
 }
 #pulseaudio.muted {
@@ -147,7 +148,7 @@ button:hover {
 	margin: 5;
 	color: @fg;
 	background-color: @bg2;
-	border: 2px solid #D3B7F8;
+	border: 1.5px solid #f5e0dc;
 	border-radius: 10;
 }
 #clock:hover {
@@ -159,7 +160,7 @@ button:hover {
 	margin: 5 10 5 5;
 	color: @pink;
 	background-color: @bg2;
-	border: 2px solid #D3B7F8;
+	border: 1.5px solid #f2cdcd;
 	border-radius: 10;
 }
 #custom-power:hover {
