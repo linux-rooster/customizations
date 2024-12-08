@@ -19,12 +19,12 @@ I like it. It's cleeeeeeeeeean.
 ## Oh My ZSH!
 I use ZSH as my shell. It's very customizable. So i decided to put a simple arrow theme. Works best with Catppuccin-Mocha theme for your terminal.
 
-![OhMyZSH](screenshots/ohmyzsh.png)
+![OhMyZSH](screenshots/ohmyzsh2.png)
 ## Kitty Terminal
 One of my favourite terminal emulators. I left Konsole and moved on to kitty. I think i like it more. So here's my config.\
 Make sure to install the Hack Nerd Font and Hack Nerd Font Bold from nerdfonts.com, as thats the font my config uses.
 
-![kitty](screenshots/kitty.png)
+![kitty](screenshots/kitty2.png)
 ## CAVA
 Cava (CROSS PLATFORM AUDIO VISUALIZER) is a terminal program that can be used to create audio spectrums. It can also be configured. Here's mine:
 
