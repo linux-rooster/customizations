@@ -38,6 +38,7 @@ Now this has many tools that you need to install because i'm too lazy to make an
 - `wofi` for the app launcher
 - `kitty` for the terminal
 - `swww` for the wallpaper utility
+- `wlogout` for the logout menu (waybar)
 - Bibata-Modern-Classic's both XCURSOR and HYPRCURSOR themes
 
 ![bruh](screenshots/hypr2.png) ![bruh](screenshots/busy2.png) ![bruh](screenshots/cava3.png)
