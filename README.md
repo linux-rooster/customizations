@@ -41,4 +41,4 @@ Now this has many tools that you need to install because i'm too lazy to make an
 - `wlogout` for the logout menu (waybar)
 - Bibata-Modern-Classic's both XCURSOR and HYPRCURSOR themes
 
-![bruh](screenshots/hypr2.png) ![bruh](screenshots/busy2.png) ![bruh](screenshots/cava3.png)
+![bruh](screenshots/hypr3.png) ![bruh](screenshots/busy3.png) ![bruh](screenshots/cava4.png) ![bruh](screenshots/fileman.png) ![bruh](screenshots/wofi3.png)
