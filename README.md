@@ -30,6 +30,14 @@ Cava (CROSS PLATFORM AUDIO VISUALIZER) is a terminal program that can be used to
 
 ![cava](screenshots/cava2.png)
 # THE BIG ONE: HYPRLAND (+ waybar)
-HYprland is a tiling WM. I love customizing it. Heres my config, i think you might like it. PLease be sure to read the wayba and hyprland config thoroughly, because this config was meant for MY system.
+HYprland is a tiling WM. I love customizing it. Heres my config, i think you might like it. PLease be sure to read the wayba and hyprland config thoroughly, because this config was meant for MY system.\
+Now this has many tools that you need to install because i'm too lazy to make an install script for my dotfiles.
+- `grim` and `slurp` for screenshotting
+- `waybar` for the top bar
+- `thunar` for the file manager
+- `wofi` for the app launcher
+- `kitty` for the terminal
+- `swww` for the wallpaper utility
+- Bibata-Modern-Classic's both XCURSOR and HYPRCURSOR themes
 
 ![bruh](screenshots/hypr2.png) ![bruh](screenshots/busy2.png) ![bruh](screenshots/cava3.png)
