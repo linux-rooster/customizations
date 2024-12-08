@@ -32,4 +32,4 @@ Cava (CROSS PLATFORM AUDIO VISUALIZER) is a terminal program that can be used to
 # THE BIG ONE: HYPRLAND (+ waybar)
 HYprland is a tiling WM. I love customizing it. Heres my config, i think you might like it. PLease be sure to read the wayba and hyprland config thoroughly, because this config was meant for MY system.
 
-![bruh](screenshots/HYPR.png) ![bruh](screenshots/busy.png) ![bruh](screenshots/cava.png)
+![bruh](screenshots/hypr2.png) ![bruh](screenshots/busy2.png) ![bruh](screenshots/cava3.png)
