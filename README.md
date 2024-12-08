@@ -17,7 +17,7 @@ I like it. It's cleeeeeeeeeean.
 
 ![Rofi](screenshots/wofi.png)
 ## Oh My ZSH!
-I use ZSH as my shell. It's very customizable. So i decided to put a simple arrow theme. Works best with Catppuccin-Macchiato theme for your terminal.
+I use ZSH as my shell. It's very customizable. So i decided to put a simple arrow theme. Works best with Catppuccin-Mocha theme for your terminal.
 ![OhMyZSH](screenshots/ohmyzsh.png)
 ## Kitty Terminal
 One of my favourite terminal emulators. I left Konsole and moved on to kitty. I think i like it more. So here's my config.\
