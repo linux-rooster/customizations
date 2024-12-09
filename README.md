@@ -24,7 +24,7 @@ So, if it doesn't show the endeavourOS colours, you must be using a different di
 For example, Arch LInux's logo is blue, so the logo provided in the file is blue.\
 In that case, you can change the logo.
 
-![neofetch](screenshots/neofetch.png)
+![neofetch](screenshots/neofetch2.png)
 ## Wofi
 The best application launcher for Wayland. Similar to fastfetch, my Wofi config is very simple.\
 I like it. It's cleeeeeeeeeean.
