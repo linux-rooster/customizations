@@ -21,7 +21,8 @@ That directory path assumes that you put the logo file in the neofetch folder.
 You can alias this in your shells `.rc` file.\
 THe colours in the logo are set to colour variables of your ACTUAL os.
 So, if it doesn't show the endeavourOS colours, you must be using a different distro or something else.
-For example, Arch LInux's logo is blue, so the logo provided in the file is blue.
+For example, Arch LInux's logo is blue, so the logo provided in the file is blue.\
+In that case, you can change the logo.
 
 ![neofetch](screenshots/neofetch.png)
 ## Wofi
