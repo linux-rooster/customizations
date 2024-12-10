@@ -1,13 +1,13 @@
 # My Customizations
 Well, here's some customizations for YOU to modify!\
 You can grab any of them, and adjust them however you like!\
-I will put more things here later.\
 Currently, I have:
 ## Neovim
-A neovim init.lua, configured with the plugin manager "Packer", and the Neovim theme "Catppuccin Mocha".\
+A neovim init.lua, configured with the plugin manager "Packer", and the Neovim theme "Catppuccin Mocha", complete with a dashboard (alpha.nvim), fuzzy finder (telescope), file-tree with icons (nvim-tree), a beautiful catppuccin theme (mocha), and tree-sitter for syntax highlighting.\
 Install Packer before getting the init.lua file.\
-Make sure to run `:PackerSync` after getting the init.lua
+Make sure to run `:PackerSync` after getting the init.lua.\
 ![Neovim](screenshots/neovim.png)
+![NVIMDAHSBOARD](screenshots/nvimdashboard.png)
 ## Neofetch
 My favourite terminal "fetch" program.\
 Yeah, it's not maintained anymore, but who cares? It's still great.\
