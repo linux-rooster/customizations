@@ -29,7 +29,18 @@ packer.startup(function(use)
     use 'wbthomason/packer.nvim'  -- Manage itself
     use 'nvim-treesitter/nvim-treesitter'  -- Treesitter
     use 'nvim-treesitter/playground'  -- Optional Treesitter Playground
+	use {
+	'nvim-telescope/telescope.nvim', tag = '0.1.8',
+		-- or                            , branch = '0.1.x',
+	requires = { {'nvim-lua/plenary.nvim'} }
+	}
     use { "catppuccin/nvim", as = "catppuccin" }  -- Catppuccin theme
+	use {
+    'goolord/alpha-nvim',
+    config = function ()
+        require'alpha'.setup(require'alpha.themes.dashboard'.config)
+    end
+		}
     use {
         'kyazdani42/nvim-tree.lua',
         requires = { 'kyazdani42/nvim-web-devicons' },
@@ -54,7 +65,7 @@ require'nvim-treesitter.configs'.setup {
 vim.opt.termguicolors = true
 
 require("catppuccin").setup({
-    flavour = "macchiato", -- latte, frappe, macchiato, mocha
+    flavour = "mocha", -- latte, frappe, macchiato, mocha
     transparent_background = true, -- i reccommend you use my kitty terminal config if you want this to work well, otherwise disable it.
     show_end_of_buffer = false, -- shows the '~' characters after the end of buffers
     term_colors = false, -- sets terminal colors (e.g. `g:terminal_color_0`)
@@ -103,3 +114,9 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.wrap = false
+
+local builtin = require('telescope.builtin')
+vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
+vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
+vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = 'Telescope buffers' })
+vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help tags' })
