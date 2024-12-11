@@ -57,6 +57,7 @@ Now this has many tools that you need to install because i'm too lazy to make an
 - `kitty` for the terminal
 - `swww` for the wallpaper utility
 - `wlogout` for the logout menu (waybar)
+- `lxappearance` and the catppuccin mocha GTK theme, then applying it in `lxappearance`. This is done to give the catppuccin mocha theme to Thunar (the file manager).
 - Bibata-Modern-Classic's both XCURSOR and HYPRCURSOR themes
 
 ![](screenshots/hypr.png)
