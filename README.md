@@ -41,7 +41,10 @@ My favourite terminal emulator.
 ![kitty](screenshots/kitty3.png)
 ## Starship
 THE prompt. The best prompt. My favourite prompt.
+## Dunst
+THE best notification service.
 
+![](screenshots/dunst.png)
 ![starship](screenshots/starship.png)
 ## CAVA
 Cava (CROSS PLATFORM AUDIO VISUALIZER) is a terminal program that can be used to create audio spectrums. It can also be configured. Here's mine:
