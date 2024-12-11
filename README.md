@@ -59,4 +59,4 @@ Now this has many tools that you need to install because i'm too lazy to make an
 - `wlogout` for the logout menu (waybar)
 - Bibata-Modern-Classic's both XCURSOR and HYPRCURSOR themes
 
-()()()
+(screenshots/hypr.png)
