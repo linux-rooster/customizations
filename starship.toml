@@ -1,0 +1,19 @@
+# get completions
+"$schema" = 'https://starship.rs/config-schema.json'
+format = """
+[$directory](bold)[$character](bold)
+"""
+add_newline = false
+
+[directory]
+style = 'bold #f9e2af'
+
+[character]
+# ❭
+success_symbol = '[❭](bold #f9e2af)'
+error_symbol = '[☠](bold #f9e2af)'
+
+[git_branch]
+style = '#6e738d'
+[package]
+disabled = true
