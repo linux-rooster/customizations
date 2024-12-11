@@ -30,14 +30,13 @@ The best application launcher for Wayland. Similar to fastfetch, my Wofi config 
 I like it. It's cleeeeeeeeeean.
 
 ![Rofi](screenshots/wofi.png)
-## Oh My ZSH!
-I use ZSH as my shell. It's very customizable. So i decided to put a simple arrow theme. Works best with Catppuccin-Mocha theme for your terminal.
+## Fish
+My favourite shell.\
+Thats all.
 
-![OhMyZSH](screenshots/ohmyzsh2.png)
-## Kitty Terminal
-One of my favourite terminal emulators. I left Konsole and moved on to kitty. I think i like it more. So here's my config.\
-Make sure to install the JetBrains Mono NL font, as thats the font my config uses.
-
+![fish](screenshots/fish.png)
+## Kitty
+My favourite terminal emulator.
 ![kitty](screenshots/kitty2.png)
 ## CAVA
 Cava (CROSS PLATFORM AUDIO VISUALIZER) is a terminal program that can be used to create audio spectrums. It can also be configured. Here's mine:
