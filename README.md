@@ -1,4 +1,7 @@
-# My Customizations
+# ATTENTION:
+**THESE DOTFILES ARE LEGACY NOW.
+YOU CAN STILL USE THEM, BUT THEY WILL NOT BE UPDATED. PLEASE USE THE OTHER DOTFILES REPO IN MY PROFILE, BUT YOU CAN GET SOME THINGS HERE.**
+## My Customizations
 Well, here's some customizations for YOU to modify!\
 You can grab any of them, and adjust them however you like!\
 Currently, I have:
